@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8F65171BF98BFC00D8BBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC752DA1BEDDD6400383914 /* Assets.xcassets */; };
+		2AC752D41BEDDD6400383914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC752D31BEDDD6400383914 /* AppDelegate.swift */; };
+		2AC752D61BEDDD6400383914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC752D51BEDDD6400383914 /* ViewController.swift */; };
+		2AC752D91BEDDD6400383914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC752D71BEDDD6400383914 /* Main.storyboard */; };
+		2AC752DE1BEDDD6400383914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC752DC1BEDDD6400383914 /* LaunchScreen.storyboard */; };
+		2AC752E91BEDDD6400383914 /* BillboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC752E81BEDDD6400383914 /* BillboTests.swift */; };
+		2AC752F41BEDDD6400383914 /* BillboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC752F31BEDDD6400383914 /* BillboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC752E51BEDDD6400383914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC752C81BEDDD6400383914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC752CF1BEDDD6400383914;
+			remoteInfo = Billbo;
+		};
+		2AC752F01BEDDD6400383914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC752C81BEDDD6400383914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC752CF1BEDDD6400383914;
+			remoteInfo = Billbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC752D01BEDDD6400383914 /* Billbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Billbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC752D31BEDDD6400383914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AC752D51BEDDD6400383914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AC752D81BEDDD6400383914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC752DA1BEDDD6400383914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC752DD1BEDDD6400383914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC752DF1BEDDD6400383914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC752E41BEDDD6400383914 /* BillboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC752E81BEDDD6400383914 /* BillboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboTests.swift; sourceTree = "<group>"; };
+		2AC752EA1BEDDD6400383914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC752EF1BEDDD6400383914 /* BillboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC752F31BEDDD6400383914 /* BillboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboUITests.swift; sourceTree = "<group>"; };
+		2AC752F51BEDDD6400383914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC752CD1BEDDD6400383914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC752E11BEDDD6400383914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC752EC1BEDDD6400383914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC752C71BEDDD6400383914 = {
+			isa = PBXGroup;
+			children = (
+				2AC752D21BEDDD6400383914 /* Billbo */,
+				2AC752E71BEDDD6400383914 /* BillboTests */,
+				2AC752F21BEDDD6400383914 /* BillboUITests */,
+				2AC752D11BEDDD6400383914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC752D11BEDDD6400383914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC752D01BEDDD6400383914 /* Billbo.app */,
+				2AC752E41BEDDD6400383914 /* BillboTests.xctest */,
+				2AC752EF1BEDDD6400383914 /* BillboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC752D21BEDDD6400383914 /* Billbo */ = {
+			isa = PBXGroup;
+			children = (
+				2AC752D31BEDDD6400383914 /* AppDelegate.swift */,
+				2AC752D51BEDDD6400383914 /* ViewController.swift */,
+				2AC752D71BEDDD6400383914 /* Main.storyboard */,
+				2AC752DA1BEDDD6400383914 /* Assets.xcassets */,
+				2AC752DC1BEDDD6400383914 /* LaunchScreen.storyboard */,
+				2AC752DF1BEDDD6400383914 /* Info.plist */,
+			);
+			path = Billbo;
+			sourceTree = "<group>";
+		};
+		2AC752E71BEDDD6400383914 /* BillboTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC752E81BEDDD6400383914 /* BillboTests.swift */,
+				2AC752EA1BEDDD6400383914 /* Info.plist */,
+			);
+			path = BillboTests;
+			sourceTree = "<group>";
+		};
+		2AC752F21BEDDD6400383914 /* BillboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC752F31BEDDD6400383914 /* BillboUITests.swift */,
+				2AC752F51BEDDD6400383914 /* Info.plist */,
+			);
+			path = BillboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC752CF1BEDDD6400383914 /* Billbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC752F81BEDDD6400383914 /* Build configuration list for PBXNativeTarget "Billbo" */;
+			buildPhases = (
+				2AC752CC1BEDDD6400383914 /* Sources */,
+				2AC752CD1BEDDD6400383914 /* Frameworks */,
+				2AC752CE1BEDDD6400383914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Billbo;
+			productName = Billbo;
+			productReference = 2AC752D01BEDDD6400383914 /* Billbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC752E31BEDDD6400383914 /* BillboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC752FB1BEDDD6400383914 /* Build configuration list for PBXNativeTarget "BillboTests" */;
+			buildPhases = (
+				2AC752E01BEDDD6400383914 /* Sources */,
+				2AC752E11BEDDD6400383914 /* Frameworks */,
+				2AC752E21BEDDD6400383914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC752E61BEDDD6400383914 /* PBXTargetDependency */,
+			);
+			name = BillboTests;
+			productName = BillboTests;
+			productReference = 2AC752E41BEDDD6400383914 /* BillboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AC752EE1BEDDD6400383914 /* BillboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC752FE1BEDDD6400383914 /* Build configuration list for PBXNativeTarget "BillboUITests" */;
+			buildPhases = (
+				2AC752EB1BEDDD6400383914 /* Sources */,
+				2AC752EC1BEDDD6400383914 /* Frameworks */,
+				2AC752ED1BEDDD6400383914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC752F11BEDDD6400383914 /* PBXTargetDependency */,
+			);
+			name = BillboUITests;
+			productName = BillboUITests;
+			productReference = 2AC752EF1BEDDD6400383914 /* BillboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC752C81BEDDD6400383914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Cheryl Zhang";
+				TargetAttributes = {
+					2AC752CF1BEDDD6400383914 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2AC752E31BEDDD6400383914 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2AC752CF1BEDDD6400383914;
+					};
+					2AC752EE1BEDDD6400383914 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2AC752CF1BEDDD6400383914;
+					};
+				};
+			};
+			buildConfigurationList = 2AC752CB1BEDDD6400383914 /* Build configuration list for PBXProject "Billbo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC752C71BEDDD6400383914;
+			productRefGroup = 2AC752D11BEDDD6400383914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC752CF1BEDDD6400383914 /* Billbo */,
+				2AC752E31BEDDD6400383914 /* BillboTests */,
+				2AC752EE1BEDDD6400383914 /* BillboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC752CE1BEDDD6400383914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC752DE1BEDDD6400383914 /* LaunchScreen.storyboard in Resources */,
+				2A8F65171BF98BFC00D8BBBE /* Assets.xcassets in Resources */,
+				2AC752D91BEDDD6400383914 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC752E21BEDDD6400383914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC752ED1BEDDD6400383914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC752CC1BEDDD6400383914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC752D61BEDDD6400383914 /* ViewController.swift in Sources */,
+				2AC752D41BEDDD6400383914 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC752E01BEDDD6400383914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC752E91BEDDD6400383914 /* BillboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC752EB1BEDDD6400383914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC752F41BEDDD6400383914 /* BillboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC752E61BEDDD6400383914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC752CF1BEDDD6400383914 /* Billbo */;
+			targetProxy = 2AC752E51BEDDD6400383914 /* PBXContainerItemProxy */;
+		};
+		2AC752F11BEDDD6400383914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC752CF1BEDDD6400383914 /* Billbo */;
+			targetProxy = 2AC752F01BEDDD6400383914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC752D71BEDDD6400383914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC752D81BEDDD6400383914 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC752DC1BEDDD6400383914 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC752DD1BEDDD6400383914 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC752F61BEDDD6400383914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC752F71BEDDD6400383914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC752F91BEDDD6400383914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Billbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheryl.Billbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AC752FA1BEDDD6400383914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Billbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheryl.Billbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AC752FC1BEDDD6400383914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BillboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheryl.BillboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billbo.app/Billbo";
+			};
+			name = Debug;
+		};
+		2AC752FD1BEDDD6400383914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BillboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheryl.BillboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billbo.app/Billbo";
+			};
+			name = Release;
+		};
+		2AC752FF1BEDDD6400383914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BillboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheryl.BillboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Billbo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2AC753001BEDDD6400383914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BillboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheryl.BillboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Billbo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC752CB1BEDDD6400383914 /* Build configuration list for PBXProject "Billbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC752F61BEDDD6400383914 /* Debug */,
+				2AC752F71BEDDD6400383914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC752F81BEDDD6400383914 /* Build configuration list for PBXNativeTarget "Billbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC752F91BEDDD6400383914 /* Debug */,
+				2AC752FA1BEDDD6400383914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC752FB1BEDDD6400383914 /* Build configuration list for PBXNativeTarget "BillboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC752FC1BEDDD6400383914 /* Debug */,
+				2AC752FD1BEDDD6400383914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC752FE1BEDDD6400383914 /* Build configuration list for PBXNativeTarget "BillboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC752FF1BEDDD6400383914 /* Debug */,
+				2AC753001BEDDD6400383914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC752C81BEDDD6400383914 /* Project object */;
+}
